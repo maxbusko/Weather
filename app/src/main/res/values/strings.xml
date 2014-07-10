@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Погода</string>
+    <string name="error">Ошибка</string>
+
+    <string name="temp">%s&#176;C</string>
+    <string name="min_temp">min: %s&#176;C</string>
+    <string name="max_temp">max: %s&#176;C</string>
+    <string name="humidity">Влажность: %s</string>
+    <string name="pressure">Давление: %s</string>
+    <string name="wind">Скорость ветра: %s м/с</string>
+
+    <string name="refresh">Обновить</string>
+    <string name="drawer_open">Открыть меню</string>
+    <string name="drawer_close">Закрыть меню</string>
+
+    <string name="add_city">Добавить город</string>
+
+    <string name="days3">3 дня</string>
+    <string name="days7">7 дней</string>
+
+</resources>

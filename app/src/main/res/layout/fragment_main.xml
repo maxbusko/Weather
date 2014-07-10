@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<de.timroes.android.listview.EnhancedListView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:divider="@null"
+    android:dividerHeight="5dp"
+    android:id="@+id/listview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:listSelector="@drawable/background_card"/>

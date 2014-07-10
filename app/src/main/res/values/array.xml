@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="menu">
+        <item>@string/days3</item>
+        <item>@string/days7</item>
+    </array>
+</resources>

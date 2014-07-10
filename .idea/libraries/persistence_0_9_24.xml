@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="persistence-0.9.24">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.codeslap/persistence/0.9.24/390a7a09dfa4bc46f0db516eb87cb3967666c47e/persistence-0.9.24.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.codeslap/persistence/0.9.24/bdbd301dd13d738d8c868835108f4902c5e2836a/persistence-0.9.24-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

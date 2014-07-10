@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_card"
+    android:padding="5dp">
+
+    <RelativeLayout
+        android:id="@+id/topblock"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_below="@+id/description"
+            android:id="@+id/block1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_marginRight="10dp"
+                android:layout_centerVertical="true"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/name"
+                android:textStyle="bold"
+                android:text="24"
+                android:textSize="25sp"
+                android:id="@+id/temp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </RelativeLayout>
+
+
+        <TextView
+            android:layout_below="@+id/block1"
+            android:text="min: 22"
+            android:id="@+id/min"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/min"
+            android:layout_below="@+id/block1"
+            android:text="max: 26"
+            android:id="@+id/max"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_alignParentRight="true"
+            android:textSize="11sp"
+            android:text="Пасмурно"
+            android:id="@+id/description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:layout_below="@+id/description"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/temp"
+            android:id="@+id/icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+    <View
+        android:layout_below="@+id/topblock"
+        android:background="@android:color/darker_gray"
+        android:layout_width="match_parent"
+        android:layout_height="1dp" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textSize="16sp"
+            android:text="Влажность: 44%"
+            android:id="@+id/humidity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:textSize="16sp"
+            android:text="Давление: 1000"
+            android:id="@+id/pressure"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:textSize="16sp"
+            android:text="Скорость ветра: 12 м/с"
+            android:id="@+id/wind"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>
